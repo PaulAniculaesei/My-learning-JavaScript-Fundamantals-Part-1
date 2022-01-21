@@ -1,1 +1,2 @@
-# My-learning-JavaScript-Fundamantals-Part-1
+# Hello!
+My name is Paul, and I am learning Javascript!

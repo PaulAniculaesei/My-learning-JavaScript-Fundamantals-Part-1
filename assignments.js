@@ -41,9 +41,10 @@ if (population > 33000000) {
     console.log(`${country}'s population is 17000000 milion below average`);
 }
 
-*/
+
 4;
 617
 23
 console.log("123" < 57);//false
 1143
+*/
