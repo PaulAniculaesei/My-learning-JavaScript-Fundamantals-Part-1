@@ -212,10 +212,55 @@ console.log(typeof NaN);
 console.log(String(23), 23);
 
 
-*/
+
 
 console.log(`I am 23 years old`);
 
 console.log("23" - "10 " + 3);
 
 console.log("23" / 3);
+
+
+
+
+//5 falsy values: 0, "",undefined,null,NaN
+//They become falsy when you try to convert them to Boolean
+
+console.log(Boolean(0));
+console.log(Boolean(null));
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(13));
+console.log(Boolean('Paul'));
+
+const money = {};
+if (money) {
+    console.log("Don't spend itt all");
+} else {
+    console.log("Get a job!");
+}
+
+
+
+let height = NaN;
+if (height) {
+    console.log("Yeii!!");
+} else {
+    console.log('NOOO!!');
+}
+
+
+
+const age = 18;
+if (age === 18) console.log('You just became an adult');
+*/
+
+
+
+const favorite = Number(prompt('What is your favorite number?'));
+
+console.log(typeof favorite);
+
+if (favorite == 23) {
+    console.log("COOL!")
+};

@@ -46,5 +46,9 @@ if (population > 33000000) {
 617
 23
 console.log("123" < 57);//false
-1143
+
+
+let number = 5 + 6 + '4' + 9 - 4 - 2;
+console.log(typeof number);
+
 */
