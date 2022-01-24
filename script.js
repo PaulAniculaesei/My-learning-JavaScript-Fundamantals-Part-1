@@ -14,7 +14,7 @@ console.log(firstName);
 let _3years = 3;
 */
 
-/*
+/* 
 let javascriptIsFun = false;
 console.log(javascriptIsFun);
 console.log(typeof true);
@@ -253,7 +253,7 @@ if (height) {
 
 const age = 18;
 if (age === 18) console.log('You just became an adult');
-*/
+
 
 
 
@@ -264,3 +264,34 @@ console.log(typeof favorite);
 if (favorite == 23) {
     console.log("COOL!")
 };
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+
+
+console.log(String(Number("13")));
+
+console.log("1234345" - 10 - 23);
+
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
+
+console.log(typeof NaN === "number");
+*/
+console.log(Boolean(0));
+console.log(Boolean(""));
+console.log(Boolean(null));
+console.log(Boolean(1));
+console.log(Boolean({}));
+
+
+const money = null;
+if (money) {
+    console.log("You are rich!");
+} else {
+    console.log("Get some money");
+}
+
