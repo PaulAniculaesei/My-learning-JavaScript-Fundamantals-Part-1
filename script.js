@@ -280,7 +280,7 @@ n = n - 1;
 console.log(n);
 
 console.log(typeof NaN === "number");
-*/
+
 console.log(Boolean(0));
 console.log(Boolean(""));
 console.log(Boolean(null));
@@ -293,5 +293,31 @@ if (money) {
     console.log("You are rich!");
 } else {
     console.log("Get some money");
+}
+
+
+
+//strict vs loose operator
+
+const age = 18;
+
+if (age === 18) console.log('You just became an adult (strict)');
+
+if (age == 18) console.log('You just became an adult :D(loose)');
+*/
+
+const favourite = Number(prompt("What's your favorite number?"));
+
+console.log(typeof favourite);
+if (favourite === 23) {
+    console.log('Cool! 23 is an amazing number');
+} else if (favourite === 7) {
+    console.log('7 is a very cool number');
+} else {
+    console.log('Number is not 23 or 7!!');
+}
+
+if (favourite !== 23) {
+    console.log("Why not 23?");
 }
 
