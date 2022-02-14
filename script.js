@@ -304,7 +304,7 @@ const age = 18;
 if (age === 18) console.log('You just became an adult (strict)');
 
 if (age == 18) console.log('You just became an adult :D(loose)');
-*/
+
 
 const favourite = Number(prompt("What's your favorite number?"));
 
@@ -321,3 +321,4 @@ if (favourite !== 23) {
     console.log("Why not 23?");
 }
 
+*/
