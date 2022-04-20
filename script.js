@@ -321,4 +321,98 @@ if (favourite !== 23) {
     console.log("Why not 23?");
 }
 
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean([]));
+
+const money = 1;
+if (money) {
+    console.log(`Don't spend all of them`);
+} else {
+    console.log(`Go to work!`);
+};
+
+
+
+console.log(Boolean(""));
+console.log(Boolean('Yes'));
+
+console.log(Boolean(0.1));
+
+console.log('22' - '10' - 10);
+
+
+
+const age = 16;
+if (age >= 20 && age <= 30) {
+    return age;
+}
+
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+
+
+console.log(hasDriversLicense && hasGoodVision);
+
+console.log(hasDriversLicense || hasGoodVision);
+
+console.log(!hasDriversLicense);
+
+
+
+
+
+
+const isTired = false;
+
+console.log(hasDriversLicense || hasGoodVision || isTired);
+
+
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log('Go and drive!...please');
+} else {
+    console.log('Drive a bicycle, not a car...');
+}
+
 */
+
+const averageDolphins = (97 + 112 + 101) / 3;
+
+const averageKoalas = (109 + 95 + 106) / 3;
+
+
+
+if (averageDolphins > averageKoalas) {
+    console.log("The Dolphins are the winners...!");
+} else if (averageKoalas > averageDolphins) {
+    console.log('The Koalas are the winners...!');
+} else if (averageDolphins === averageKoalas) {
+    console.log('No winners today...!!');
+};
+
+
+
+
+
+if (averageDolphins > averageKoalas && averageDolphins >= 100) {
+    console.log("The Dolphins are the winners...!");
+} else if (averageKoalas > averageDolphins && averageKoalas >= 100) {
+    console.log('The Koalas are the winners...!');
+} else if (averageDolphins === averageKoalas) {
+    console.log('No winners today...!!');
+};
+
+
+if (averageDolphins > averageKoalas && averageDolphins >= 100) {
+    console.log("The Dolphins are the winners...!");
+} else if (averageKoalas > averageDolphins && averageKoalas >= 100) {
+    console.log('The Koalas are the winners...!');
+} else if (averageDolphins >= 100 && averageKoalas >= 100 && averageDolphins === averageKoalas) {
+    console.log('No winners today...!!');
+};
+
+

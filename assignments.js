@@ -1,4 +1,4 @@
-
+/*
 const country = 'Romania';
 const continent = "Europe";
 let population = 17000000;
@@ -62,3 +62,5 @@ if (numNeighbours === 1) {
 } else {
     console.log('No borders');
 }
+
+*/
