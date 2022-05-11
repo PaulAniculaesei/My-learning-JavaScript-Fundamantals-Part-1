@@ -412,7 +412,9 @@ if (averageDolphins > averageKoalas && averageDolphins >= 100) {
 } else if (averageKoalas > averageDolphins && averageKoalas >= 100) {
     console.log('The Koalas are the winners...!');
 } else if (averageDolphins >= 100 && averageKoalas >= 100 && averageDolphins === averageKoalas) {
-    console.log('No winners today...!!');
+    console.log('Both win the tropfy!!');
+} else {
+    console.log(); "Nobody wins the trofy!!"
 };
 
 
