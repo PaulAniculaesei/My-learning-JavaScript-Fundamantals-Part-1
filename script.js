@@ -378,7 +378,7 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
     console.log('Drive a bicycle, not a car...');
 }
 
-*/
+
 
 const averageDolphins = (97 + 112 + 101) / 3;
 
@@ -418,3 +418,55 @@ if (averageDolphins > averageKoalas && averageDolphins >= 100) {
 };
 
 
+
+const day = "thursday";
+
+switch (day) {
+    case "monday":
+        console.log("Plan learning javascript");
+        console.log("Go to coding rom");
+        break;
+    case "tuesday":
+        console.log("Prepare array videos");
+        break;
+    case "wednesday":
+    case "thursday":
+        console.log("Go to work");
+        break;
+    case "saturday":
+        console.log("Go to church");
+        break;
+    case "sunday":
+        console.log("Go to Nymphaea");
+        break
+    default:
+        console.log("Not a valid day");
+
+}
+if (day === "wednesday" || day === "thursday") {
+    console.log(day);
+};
+
+*/
+
+const age = 23;
+age >= 18 ? console.log("I like to drink cola") : console.log('I want to drink fanta');
+
+
+const drink = age >= 18 ? 'cola' : "water";
+console.log(drink);
+
+
+console.log(`I like to drink ${age >= 18 ? 'cola' : 'water'}`);
+
+
+3 + 4;//expression
+1985; //expression
+true && false && ! false;//expresion
+
+
+if (23 > 2) {
+    const str = "23 is bigger";
+};
+
+console.log(`I am ${23} years old`);
