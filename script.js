@@ -447,7 +447,7 @@ if (day === "wednesday" || day === "thursday") {
     console.log(day);
 };
 
-*/
+
 
 const age = 23;
 age >= 18 ? console.log("I like to drink cola") : console.log('I want to drink fanta');
@@ -470,3 +470,5 @@ if (23 > 2) {
 };
 
 console.log(`I am ${23} years old`);
+
+*/
