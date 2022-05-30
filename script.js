@@ -472,3 +472,11 @@ if (23 > 2) {
 console.log(`I am ${23} years old`);
 
 */
+
+// conditional operator
+const age = 23;
+
+const drink = age >= 18 ? 'cola' : 'water';
+console.log(drink);
+
+console.log(`I like to drink ${age >= 18 ? 'cola' : 'water'}`);

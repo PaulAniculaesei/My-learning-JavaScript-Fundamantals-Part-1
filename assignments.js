@@ -88,4 +88,24 @@ switch (language) {
         console.log('Great language too :D');
 }
 
+
+
+//The conditional operator
+
+const population = 234000000;
+population > 33000000 ? console.log("Portugal's population is above average") : console.log("Portugal's population is below average");
+
+console.log(`Romania's population is ${population > 33000000 ? 'above' : 'below'} average`);
+
+
+
+
+
+//exercise
+const bill = 430;
+const tip = bill >= 50 && bill <= 300 ? bill * .15 : bill * .20;
+console.log(tip);
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`); 
+
 */
