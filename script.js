@@ -471,7 +471,7 @@ if (23 > 2) {
 
 console.log(`I am ${23} years old`);
 
-*/
+
 
 // conditional operator
 const age = 23;
@@ -480,3 +480,34 @@ const drink = age >= 18 ? 'cola' : 'water';
 console.log(drink);
 
 console.log(`I like to drink ${age >= 18 ? 'cola' : 'water'}`);
+
+
+let js = "amazing";
+if (js === 'amazing') alert('Javascript is for you!');
+
+
+let firstName = "Sara";
+
+console.log(firstName);
+//number, string, boolean , undefined ,null , symbol, BigInt
+
+
+
+// true;
+// console.log(true);
+let javascriptIsFun = false;
+console.log(javascriptIsFun);
+
+
+console.log(typeof javascriptIsFun);
+
+javascriptIsFun = 23;
+
+let paulA;
+console.log(typeof paulA);
+*/
+
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
