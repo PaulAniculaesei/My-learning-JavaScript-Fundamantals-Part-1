@@ -505,9 +505,24 @@ javascriptIsFun = 23;
 
 let paulA;
 console.log(typeof paulA);
-*/
+
 
 let age = 30;
 age = 31;
 
 const birthYear = 1991;
+
+const now = 2022;
+const agePaul = now - 1985;
+const ageSara = now - 2021;
+console.log(agePaul, ageSara);
+
+const firstName = 'Paul';
+const lastName = 'Aniculaesei';
+console.log(firstName + ' ' + lastName);
+
+
+*/
+
+let x, y;
+
