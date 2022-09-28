@@ -14,7 +14,7 @@ console.log(firstName);
 let _3years = 3;
 */
 
-/* 
+/*
 let javascriptIsFun = false;
 console.log(javascriptIsFun);
 console.log(typeof true);
@@ -531,10 +531,37 @@ const birthYear = 1985;
 const paul = `I am ${firstName} and I am a ${job} that was borned in ${birthYear}.`;
 console.log(paul);
 
-const news = `I am 
+const news = `I am
 paul
-from 
+from
 Romania`;
 console.log(news);
 
+
+
+const age = 15;
+if (age >= 18) {
+    console.log(`You are able to take the driver license!`)
+} else {
+    console.log(`You have to wait ${18 - age} years more.`);
+}
+
+const bmiMark = 100;
+const bmiJohn = 136;
+if (bmiMark > bmiJohn) {
+    console.log(`Mark's BMI (${bmiMark}) is higher than John's (${bmiJohn}).`);
+} else if (bmiJohn > bmiMark) {
+    console.log(`John's BMI (${bmiJohn}) is higher than Mark's (${bmiMark}).`);
+}
+
+console.log('1991' + String(13));
+
+console.log('23' - 5 + "Paul");
 */
+
+// 5 Falsy values : 0 , '' ,undefined , null, NaN
+
+console.log(Boolean(0));
+// 0 , "", undefined, null ,NaN
+
+console.log(Boolean(0));
