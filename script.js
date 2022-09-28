@@ -522,7 +522,19 @@ const lastName = 'Aniculaesei';
 console.log(firstName + ' ' + lastName);
 
 
+
+
+const firstName = 'Paul';
+const job = 'musician';
+const birthYear = 1985;
+
+const paul = `I am ${firstName} and I am a ${job} that was borned in ${birthYear}.`;
+console.log(paul);
+
+const news = `I am 
+paul
+from 
+Romania`;
+console.log(news);
+
 */
-
-let x, y;
-
