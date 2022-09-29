@@ -557,7 +557,7 @@ if (bmiMark > bmiJohn) {
 console.log('1991' + String(13));
 
 console.log('23' - 5 + "Paul");
-*/
+
 
 // 5 Falsy values : 0 , '' ,undefined , null, NaN
 
@@ -565,3 +565,35 @@ console.log(Boolean(0));
 // 0 , "", undefined, null ,NaN
 
 console.log(Boolean(0));
+// 0 ,"",undefined,null,NaN
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(''));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+
+let money = 1;
+if (money) {
+    console.log(`Yey, you have money!`);
+} else {
+    console.log(`Go get a job!!`);
+}
+let firstName = prompt("What is your name?");
+console.log(typeof firstName);
+cons
+*/
+// == loose
+// === strict
+// !== strict
+// != loose
+
+let number = Number(prompt('Your lucky number is:'));
+
+if (number <= 10) {
+    console.log('Your number is small');
+} else if (number > 10 && number < 20) {
+    console.log('Your number is medium');
+} else {
+    console.log(`You have a huge number`)
+};
+
