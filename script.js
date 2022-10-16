@@ -581,7 +581,7 @@ if (money) {
 let firstName = prompt("What is your name?");
 console.log(typeof firstName);
 cons
-*/
+
 // == loose
 // === strict
 // !== strict
@@ -597,3 +597,22 @@ if (number <= 10) {
     console.log(`You have a huge number`)
 };
 
+
+const aaa = true;
+const bbb = true;
+console.log();
+&&
+||
+*/
+let averageDolphins = (96 + 108 + 89) / 3;
+let averageKoalas = (99 + 91 + 110) / 3;
+
+if (averageDolphins > averageKoalas && averageDolphins >= 100) {
+    console.log(`The dolphpins is a winner with ${averageDolphins} points.`);
+} else if (averageKoalas > averageDolphins && averageKoalas >= 100) {
+    console.log(`The Koalas are the winners with ${averageKoalas} points.`);
+} else if (averageDolphins === averageKoalas && averageDolphins >= 100 && averageKoalas >= 100) {
+    console.log(`It's a draw.`);
+} else {
+    console.log(`No winners today.`);
+};
